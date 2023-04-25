@@ -2,7 +2,7 @@
 
 ## Steps to run Code
 
-- Goto the root folder.
+- Go to the root folder.
 ```
 cd DroneDetection_ICIP2023
 ```
