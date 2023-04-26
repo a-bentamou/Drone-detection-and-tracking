@@ -1,4 +1,4 @@
-# yolov7 Drone Detection and tracking
+# yolov7 for Drone Detection and tracking
 
 ## Steps to run Code
 
