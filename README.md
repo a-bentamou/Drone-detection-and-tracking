@@ -1,4 +1,4 @@
-# yolov7-Drone-tracking-ICIP2023
+# yolov7-Drone-tracking
 
 ## Steps to run Code
 
