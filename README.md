@@ -94,17 +94,17 @@ python train.py --workers 8 --device 0 --batch-size 32 --data data/IR_data.yaml 
 python -m torch.distributed.launch --nproc_per_node 4 --master_port 9527 train.py --workers 8 --device 0,1,2,3 --sync-bn --batch-size 128 --data data/IR_data.yaml --img 640 640 --cfg cfg/deploy/yolov7.yaml --weights 'weights/yolov7.pt'
 ```
 
-## Results
-<table>
-  <tr>
-    <td>Drone vs bird Detection </td>
-    <td>Distortion type detection</td>
-  </tr>
-  <tr>
-    <td>mAP = 92.6 %</td>
-    <td>Accuracy = 92%</td>
-  </tr>
- </table>
+%## Results
+%<table>
+%  <tr>
+%    <td>Drone vs bird Detection </td>
+%    <td>Distortion type detection</td>
+%  </tr>
+%  <tr>
+%    <td>mAP = 92.6 %</td>
+%    <td>Accuracy = 92%</td>
+%  </tr>
+% </table>
 
 
 ## References
